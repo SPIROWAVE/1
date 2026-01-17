@@ -8,23 +8,32 @@
             font-family: Arial, sans-serif;
             background: #f5f5f5;
             text-align: center;
-            padding-top: 100px;
+            padding-top: 50px;
         }
         button {
             font-size: 18px;
             padding: 12px 25px;
             cursor: pointer;
+            margin: 5px;
         }
         #result {
-            margin-top: 30px;
+            margin-top: 20px;
             font-size: 28px;
             font-weight: bold;
             color: #333;
         }
         #capital, #city {
-            margin-top: 15px;
+            margin-top: 10px;
             font-size: 22px;
             color: #555;
+        }
+        #ladder-container {
+            margin-top: 20px;
+            display: inline-block;
+        }
+        canvas {
+            background: #fff;
+            border: 1px solid #ccc;
         }
     </style>
 </head>
@@ -35,20 +44,40 @@
 
     <div id="result">버튼을 눌러주세요</div>
     <div id="capital"></div>
+
+    <div id="ladder-container">
+        <canvas id="ladder-canvas" width="500" height="300"></canvas>
+        <div id="ladder-controls"></div>
+    </div>
+    
     <div id="city"></div>
 
     <script src="countries.js"></script>
+    <script src="ladder.js"></script>
     <script>
+        let ladderGame;
+
         function pickCountry() {
             const randomIndex = Math.floor(Math.random() * countries.length);
             const selectedCountry = countries[randomIndex];
-            
-            const randomCityIndex = Math.floor(Math.random() * selectedCountry.major_cities.length);
-            const selectedCity = selectedCountry.major_cities[randomCityIndex];
 
             document.getElementById("result").textContent = selectedCountry.name;
             document.getElementById("capital").textContent = "수도: " + selectedCountry.capital;
-            document.getElementById("city").textContent = "대표 도시: " + selectedCity;
+            document.getElementById("city").textContent = "아래에서 시작점을 선택하여 사다리를 타세요!";
+
+            const ladderControls = document.getElementById('ladder-controls');
+            ladderControls.innerHTML = '';
+            for(let i = 0; i < selectedCountry.major_cities.length; i++){
+                const button = document.createElement('button');
+                button.textContent = `출발 ${i + 1}`;
+                button.onclick = () => startLadder(i, selectedCountry.major_cities);
+                ladderControls.appendChild(button);
+            }
+        }
+
+        function startLadder(startTrack, cities) {
+            ladderGame = new LadderGame('ladder-canvas', cities);
+            ladderGame.run(startTrack);
         }
     </script>
 
