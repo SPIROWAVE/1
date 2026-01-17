@@ -53,9 +53,27 @@
 
     <script src="countries.js"></script>
     <script>
+        let pickedCountries = [];
+
+        function resetCountries() {
+            pickedCountries = [];
+        }
+
         function pickCountry() {
-            const randomIndex = Math.floor(Math.random() * countries.length);
-            const selectedCountry = countries[randomIndex];
+            if (pickedCountries.length === countries.length) {
+                resetCountries();
+            }
+
+            let availableCountries = countries.filter(country => !pickedCountries.includes(country.name));
+            if (availableCountries.length === 0) {
+                // This should ideally not happen if resetCountries is called correctly, but as a safeguard.
+                resetCountries();
+                availableCountries = countries;
+            }
+
+            const randomIndex = Math.floor(Math.random() * availableCountries.length);
+            const selectedCountry = availableCountries[randomIndex];
+            pickedCountries.push(selectedCountry.name);
 
             document.getElementById("result").textContent = selectedCountry.name;
             document.getElementById("capital").textContent = "수도: " + selectedCountry.capital;
