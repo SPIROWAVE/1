@@ -1,17 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Country Picker</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>ProductBuilder: 당신의 아이디어를 현실로 만드는 디지털 제품 스튜디오</title>
+    <meta name="description" content="ProductBuilder는 혁신적인 아이디어를 현실의 디지털 제품으로 구현하는 전문가 그룹입니다. 웹/앱 개발, UI/UX 디자인, SEO 최적화 서비스를 통해 당신의 성공을 돕습니다.">
+    <meta name="keywords" content="디지털 제품, 웹 개발, 앱 개발, UI/UX 디자인, 스타트업, SEO, 프로덕트 빌딩, 아이디어 구현">
+    <link rel="canonical" href="https://your-domain.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com/">
+    <meta property="og:title" content="ProductBuilder: 당신의 아이디어를 현실로 만드는 디지털 제품 스튜디오">
+    <meta property="og:description" content="ProductBuilder는 혁신적인 아이디어를 현실의 디지털 제품으로 구현하는 전문가 그룹입니다.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-domain.com/">
+    <meta property="twitter:title" content="ProductBuilder: 당신의 아이디어를 현실로 만드는 디지털 제품 스튜디오">
+    <meta property="twitter:description" content="ProductBuilder는 혁신적인 아이디어를 현실의 디지털 제품으로 구현하는 전문가 그룹입니다.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ProductBuilder",
+      "url": "https://your-domain.com/",
+      "logo": "https://your-domain.com/logo.png",
+      "description": "ProductBuilder는 혁신적인 아이디어를 현실의 디지털 제품으로 구현하는 전문가 그룹입니다. 웹/앱 개발, UI/UX 디자인, SEO 최적화 서비스를 통해 당신의 성공을 돕습니다."
+    }
+    </script>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
-        <h1>Random Country Picker</h1>
-        <button id="pick-country-btn">Pick a Country</button>
-        <div id="country-display"></div>
-    </div>
+    <header>
+        <nav>
+            <div class="logo">ProductBuilder</div>
+            <ul>
+                <li><a href="#services">서비스</a></li>
+                <li><a href="#portfolio">포트폴리오</a></li>
+                <li><a href="#contact">문의하기</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-label="A motherboard with glowing circuits, representing technology and innovation.">
+            <h1>당신의 아이디어를<br>성공적인 디지털 제품으로</h1>
+            <p>기획부터 디자인, 개발, 출시까지. ProductBuilder가 함께합니다.</p>
+            <button class="cta-button">프로젝트 문의하기</button>
+        </section>
+
+        <section id="services" class="services">
+            <h2>우리의 서비스</h2>
+            <div class="service-items">
+                <article class="service-item">
+                    <h3>웹 & 앱 개발</h3>
+                    <p>최신 기술 스택을 활용하여 빠르고 안정적인 웹사이트와 모바일 앱을 개발합니다.</p>
+                </article>
+                <article class="service-item">
+                    <h3>UI/UX 디자인</h3>
+                    <p>사용자 중심의 직관적이고 아름다운 디자인으로 최상의 사용자 경험을 제공합니다.</p>
+                </article>
+                <article class="service-item">
+                    <h3>SEO & 마케팅</h3>
+                    <p>검색 엔진 최적화와 데이터 기반 마케팅 전략으로 당신의 제품을 더 많은 사람들에게 알립니다.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ProductBuilder. All rights reserved.</p>
+    </footer>
+
     <script src="main.js"></script>
 </body>
 </html>

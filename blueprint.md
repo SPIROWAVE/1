@@ -1,25 +1,46 @@
-# Project Blueprint
+# ProductBuilder: SEO-Optimized Landing Page
 
-## Overview
+## 1. 개요 (Overview)
 
-This project is a simple web application that allows users to pick a random country from a predefined list.
+이 프로젝트는 사용자의 요청에 따라 최상의 SEO(검색 엔진 최적화) 사례를 적용하여 구축된 정적 웹사이트입니다. Google과 Naver의 SEO 가이드라인을 기반으로, 뛰어난 검색 순위와 사용자 경험을 제공하는 것을 목표로 합니다.
 
-## Style, Design, and Features
+## 2. 디자인 및 기능 (Design & Features)
 
-*   **Random Country Picker:** A button that, when clicked, randomly selects a country and displays it to the user.
-*   **Simple and Clean UI:** A centered layout with a clear heading, button, and result display.
+### 2.1. 시각적 디자인 (Visual Design)
 
-## Current Task: Implement the Random Country Picker
+-   **모던하고 세련된 UI:** 깨끗한 레이아웃, 충분한 여백, 그리고 부드러운 애니메이션 효과를 사용하여 전문적인 느낌을 줍니다.
+-   **대담한 타이포그래피:** 가독성 높은 글꼴과 명확한 텍스트 계층 구조(Hero 텍스트, 섹션 헤드라인 등)를 통해 콘텐츠의 중요도를 시각적으로 전달합니다.
+-   **생동감 있는 색상 팔레트:** 주요 행동 유도 버튼과 상호작용 요소에 활기찬 색상을 사용하여 사용자의 시선을 사로잡습니다.
+-   **고품질 미디어:** 제품의 가치를 효과적으로 전달하기 위해 엄선된 고품질 이미지와 아이콘을 사용합니다.
+-   **모바일 우선 반응형 디자인:** 모든 디바이스에서 최적의 경험을 제공하기 위해 모바일 화면부터 데스크톱까지 완벽하게 지원합니다.
 
-1.  **Modify `index.html`:**
-    *   Update the title to "Random Country Picker".
-    *   Add a heading `<h1>` for the application title.
-    *   Add a button `<button>` to trigger the country selection.
-    *   Add a `div` element to display the selected country.
-2.  **Modify `style.css`:**
-    *   Style the body to center the content.
-    *   Style the button and result display area.
-3.  **Modify `main.js`:**
-    *   Create an array of country names.
-    *   Implement a function to select a random country from the array.
-    *   Add an event listener to the button that calls the selection function and updates the result `div` with the chosen country's name.
+### 2.2. 핵심 기능 (Core Features)
+
+-   **완벽한 SEO 최적화:**
+    -   **시맨틱 HTML:** `<header>`, `<main>`, `<section>`, `<footer>` 등 의미에 맞는 태그를 사용하여 검색 엔진이 콘텐츠 구조를 명확히 이해하도록 돕습니다.
+    -   **메타 태그 최적화:** 모든 페이지에 고유하고 서술적인 `<title>`과 `<meta description>`을 제공합니다.
+    -   **오픈 그래프 & 트위터 카드:** 소셜 미디어 공유 시 풍부한 미리보기를 제공하기 위한 메타 태그를 포함합니다.
+    -   **구조화된 데이터 (JSON-LD):** `Organization` 스키마를 적용하여 검색 결과에서 비즈니스 정보를 더욱 눈에 띄게 표시합니다.
+    -   **이미지 최적화:** 모든 이미지에 의미 있는 `alt` 텍스트를 제공하여 접근성과 SEO를 향상시킵니다.
+    -   **`robots.txt`:** 검색 엔진 크롤러에게 사이트 탐색 방법을 안내합니다.
+-   **인터랙티브 요소:**
+    -   **서비스 소개 섹션:** 아이콘과 함께 제공되는 명확한 서비스 설명을 통해 사용자가 비즈니스를 쉽게 이해할 수 있도록 합니다.
+    -   **고객 후기 섹션:** 사회적 증거를 통해 신뢰도를 높입니다.
+    -   **CTA (Call to Action) 버튼:** 사용자의 다음 행동을 유도하는 명확하고 눈에 띄는 버튼을 배치합니다.
+
+---
+
+## 3. 현재 요청 계획 (Current Request Plan)
+
+**목표:** Google 및 Naver SEO 가이드에 따라 SEO가 완벽한 사이트 구축
+
+| 단계 (Step)                                    | 상태 (Status) | 상세 내용 (Details)                                                                                             |
+| ---------------------------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------- |
+| **1. SEO 가이드라인 분석**                     | `Completed`   | Google 및 Naver의 공식 SEO 문서를 분석하여 핵심 요구사항을 파악했습니다.                                        |
+| **2. Blueprint.md 파일 생성 및 계획 업데이트** | `Completed`   | 프로젝트의 목표와 현재 작업 계획을 `blueprint.md` 파일에 문서화했습니다.                                          |
+| **3. 기본 SEO 설정**                           | `Completed`     | `index.html`에 `lang` 속성, `viewport`, `<title>`, `<meta>` 태그 등 기본 SEO 요소를 설정했습니다.                     |
+| **4. 콘텐츠 제작 및 구조화**                   | `Completed`     | SEO에 최적화된 주제로 콘텐츠를 작성하고, 시맨틱 HTML과 제목 계층 구조(`h1`, `h2` 등)를 사용하여 구성했습니다.     |
+| **5. 모바일 최적화 및 UX/UI 디자인 개선**        | `Completed`     | `style.css`를 수정하여 반응형 레이아웃과 현대적인 디자인을 적용했습니다.                                          |
+| **6. 이미지 추가 및 최적화**                   | `Completed`     | 고품질 이미지를 추가하고 `alt` 태그를 사용하여 최적화했습니다.                                                    |
+| **7. 고급 SEO 설정**                           | `Completed`     | `robots.txt` 파일을 생성하고, `Organization` 스키마를 포함한 JSON-LD 구조화된 데이터를 `index.html`에 추가했습니다. |
+| **8. 최종 검토 및 문서화**                     | `Completed`     | 구현된 모든 기능과 SEO 최적화 내용을 검토하고 `blueprint.md`에 최종 반영했습니다.                                 |
