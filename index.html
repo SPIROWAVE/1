@@ -102,7 +102,7 @@
             document.getElementById("major-cities").innerHTML = `${majorCitiesHtml} <span class="english-name">(${englishMajorCitiesHtml})</span>`;
 
             // Display UNESCO sites
-            let unescoSitesHtml = "<h3>유네스코 세계유산:</h3>";
+            let unescoSitesHtml = "<h3>유네스코 세계유산<br><span class=\"english-name\">UNESCO World Heritage Sites</span></h3>";
             if (selectedCountry.unesco_sites && selectedCountry.unesco_sites.length > 0) {
                 unescoSitesHtml += "<ul>";
                 selectedCountry.unesco_sites.forEach((site, index) => {
