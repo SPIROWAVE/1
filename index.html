@@ -44,6 +44,11 @@
         #unesco-sites li {
             margin-bottom: 5px;
         }
+        .english-name {
+            font-size: 0.7em; /* Adjust as needed */
+            color: #888; /* Slightly lighter color for English names */
+            font-weight: normal;
+        }
     </style>
 </head>
 <body>
@@ -80,24 +85,28 @@
             const selectedCountry = availableCountries[randomIndex];
             pickedCountries.push(selectedCountry.name);
 
-            document.getElementById("result").textContent = selectedCountry.name;
-            document.getElementById("capital").textContent = "수도: " + selectedCountry.capital;
+            document.getElementById("result").innerHTML = `${selectedCountry.name} <span class="english-name">(${selectedCountry.english_name})</span>`;
+            document.getElementById("capital").innerHTML = `수도: ${selectedCountry.capital} <span class="english-name">(${selectedCountry.english_capital})</span>`;
             
             // Display major cities
             let majorCitiesHtml = "주요 도시: ";
+            let englishMajorCitiesHtml = "N/A";
             if (selectedCountry.major_cities && selectedCountry.major_cities.length > 0) {
                 majorCitiesHtml += selectedCountry.major_cities.join(", ");
+                if (selectedCountry.english_major_cities && selectedCountry.english_major_cities.length > 0) {
+                    englishMajorCitiesHtml = selectedCountry.english_major_cities.join(", ");
+                }
             } else {
                 majorCitiesHtml += "없음";
             }
-            document.getElementById("major-cities").textContent = majorCitiesHtml;
+            document.getElementById("major-cities").innerHTML = `${majorCitiesHtml} <span class="english-name">(${englishMajorCitiesHtml})</span>`;
 
             // Display UNESCO sites
             let unescoSitesHtml = "<h3>유네스코 세계유산:</h3>";
             if (selectedCountry.unesco_sites && selectedCountry.unesco_sites.length > 0) {
                 unescoSitesHtml += "<ul>";
-                selectedCountry.unesco_sites.forEach(site => {
-                    unescoSitesHtml += `<li>${site}</li>`;
+                selectedCountry.unesco_sites.forEach((site, index) => {
+                    unescoSitesHtml += `<li>${site} <span class="english-name">(${selectedCountry.english_unesco_sites[index]})</span></li>`;
                 });
                 unescoSitesHtml += "</ul>";
             } else {
