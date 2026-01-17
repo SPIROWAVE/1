@@ -22,18 +22,22 @@
             font-weight: bold;
             color: #333;
         }
-        #capital, #city {
+        #capital, #major-cities {
             margin-top: 10px;
             font-size: 22px;
             color: #555;
         }
-        #ladder-container {
+        #unesco-sites {
             margin-top: 20px;
-            display: inline-block;
+            font-size: 18px;
+            color: #777;
         }
-        canvas {
-            background: #fff;
-            border: 1px solid #ccc;
+        #unesco-sites ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #unesco-sites li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
@@ -44,40 +48,39 @@
 
     <div id="result">버튼을 눌러주세요</div>
     <div id="capital"></div>
-
-    <div id="ladder-container">
-        <canvas id="ladder-canvas" width="500" height="300"></canvas>
-        <div id="ladder-controls"></div>
-    </div>
-    
-    <div id="city"></div>
+    <div id="major-cities"></div>
+    <div id="unesco-sites"></div>
 
     <script src="countries.js"></script>
-    <script src="ladder.js"></script>
     <script>
-        let ladderGame;
-
         function pickCountry() {
             const randomIndex = Math.floor(Math.random() * countries.length);
             const selectedCountry = countries[randomIndex];
 
             document.getElementById("result").textContent = selectedCountry.name;
             document.getElementById("capital").textContent = "수도: " + selectedCountry.capital;
-            document.getElementById("city").textContent = "아래에서 시작점을 선택하여 사다리를 타세요!";
-
-            const ladderControls = document.getElementById('ladder-controls');
-            ladderControls.innerHTML = '';
-            for(let i = 0; i < selectedCountry.major_cities.length; i++){
-                const button = document.createElement('button');
-                button.textContent = `출발 ${i + 1}`;
-                button.onclick = () => startLadder(i, selectedCountry.major_cities);
-                ladderControls.appendChild(button);
+            
+            // Display major cities
+            let majorCitiesHtml = "주요 도시: ";
+            if (selectedCountry.major_cities && selectedCountry.major_cities.length > 0) {
+                majorCitiesHtml += selectedCountry.major_cities.join(", ");
+            } else {
+                majorCitiesHtml += "없음";
             }
-        }
+            document.getElementById("major-cities").textContent = majorCitiesHtml;
 
-        function startLadder(startTrack, cities) {
-            ladderGame = new LadderGame('ladder-canvas', cities);
-            ladderGame.run(startTrack);
+            // Display UNESCO sites
+            let unescoSitesHtml = "<h3>유네스코 세계유산:</h3>";
+            if (selectedCountry.unesco_sites && selectedCountry.unesco_sites.length > 0) {
+                unescoSitesHtml += "<ul>";
+                selectedCountry.unesco_sites.forEach(site => {
+                    unescoSitesHtml += `<li>${site}</li>`;
+                });
+                unescoSitesHtml += "</ul>";
+            } else {
+                unescoSitesHtml += "<p>정보 없음</p>";
+            }
+            document.getElementById("unesco-sites").innerHTML = unescoSitesHtml;
         }
     </script>
 
