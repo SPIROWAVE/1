@@ -21,6 +21,11 @@
             font-weight: bold;
             color: #333;
         }
+        #capital, #city {
+            margin-top: 15px;
+            font-size: 22px;
+            color: #555;
+        }
     </style>
 </head>
 <body>
@@ -29,27 +34,21 @@
     <button onclick="pickCountry()">국가 추첨하기</button>
 
     <div id="result">버튼을 눌러주세요</div>
+    <div id="capital"></div>
+    <div id="city"></div>
 
+    <script src="countries.js"></script>
     <script>
-        const countries = [
-            "대한민국", "일본", "중국", "미국", "캐나다",
-            "브라질", "아르헨티나", "멕시코",
-            "영국", "프랑스", "독일", "이탈리아", "스페인",
-            "러시아", "우크라이나",
-            "인도", "태국", "베트남", "인도네시아",
-            "호주", "뉴질랜드",
-            "이집트", "남아프리카공화국", "나이지리아",
-            "사우디아라비아", "아랍에미리트",
-            "터키", "그리스",
-            "스웨덴", "노르웨이", "핀란드",
-            "폴란드", "체코",
-            "칠레", "페루", "콜롬비아"
-        ];
-
         function pickCountry() {
             const randomIndex = Math.floor(Math.random() * countries.length);
             const selectedCountry = countries[randomIndex];
-            document.getElementById("result").textContent = selectedCountry;
+            
+            const randomCityIndex = Math.floor(Math.random() * selectedCountry.major_cities.length);
+            const selectedCity = selectedCountry.major_cities[randomCityIndex];
+
+            document.getElementById("result").textContent = selectedCountry.name;
+            document.getElementById("capital").textContent = "수도: " + selectedCountry.capital;
+            document.getElementById("city").textContent = "대표 도시: " + selectedCity;
         }
     </script>
 
