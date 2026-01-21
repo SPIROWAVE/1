@@ -59,7 +59,7 @@ function pickCountry() {
             const imageUrl = site.image_url ? site.image_url : `https://picsum.photos/seed/${index}/400/300`;
             imagesHtml += `<div class="unesco-image-item">
                                 <img src="${imageUrl}" alt="${site.name}">
-                                <p>${site.name}</p>
+                                <p>${site.name} <span class="english-name">(${site.english_name})</span></p>
                            </div>`;
         });
     }
