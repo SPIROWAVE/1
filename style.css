@@ -123,3 +123,25 @@ button {
         font-size: 1.2rem;
     }
 }
+
+.map-link {
+    display: block; /* Make the link take full width */
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.map-link:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for the pin icon */
+.map-link::before {
+    content: ''; /* No content needed, the pin icon is already in the HTML */
+}
