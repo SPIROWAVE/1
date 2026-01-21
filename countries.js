@@ -69,7 +69,7 @@ const countries = [
         "unesco_sites": [
             { "name": "캐나다 로키 산맥 공원", "english_name": "Canadian Rocky Mountain Parks", "image_url": "https://media.triple.guide/triple-cms/c_limit,f_auto,h_1024,w_1024/e58e1b21-dd7a-44a5-aeed-c795a242ffb1.jpeg" },
             { "name": "퀘벡 역사 지구", "english_name": "Historic District of Old Québec", "image_url": "https://www.travelnbike.com/news/photo/201704/36806_33553_367.jpg" },
-            { "name": "나하니 국립공원", "english_name": "Nahanni National Park", "image_url": "http://www.rabkorea.co.kr/wp-content/uploads/2017/09/IMG_1434-960x640.jpg" },
+            { "name": "나하니 국립공원", "english_name": "Nahanni National Park", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Nahanni_-VirginiaFalls2.jpg/2560px-Nahanni_-VirginiaFalls2.jpg" },
             { "name": "루넌버그 옛 시가지", "english_name": "Old Town Lunenburg", "image_url": "https://cdn.sommeliertimes.com/news/photo/202311/126087_59667_2221.jpg" }
         ]
     },
@@ -220,7 +220,7 @@ const countries = [
             { "name": "타지마할", "english_name": "Taj Mahal", "image_url": "https://www.thoughtco.com/thmb/-4Et-8zwhMIMqh9Uo_na5ZN2am8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sunrise-at-taj-mahal--agra--uttar-pradash--india-583682538-5b91840bc9e77c0050bdc67b.jpg" },
             { "name": "아그라 요새", "english_name": "Agra Fort", "image_url": "https://www.historyhit.com/app/uploads/bis-images/5150656/Agra-Fort-1576x1074.jpg" },
             { "name": "엘로라 동굴", "english_name": "Ellora Caves", "image_url": "https://www.indiaholidaymall.com/images/blog/Ellora-Caves-Unesco-World-Heritage-Site.jpg" },
-            { "name": "함피 유적군", "english_name": "Group of Monuments at Hampi", "image_url": "roup of Monuments at Hampi" },
+            { "name": "함피 유적군", "english_name": "Group of Monuments at Hampi", "image_url": "https://www.indianluxurytrains.com/wp-content/uploads/2011/07/Hampi_virupaksha_temple-1.jpg" },
             { "name": "쿠트브 미나르와 그 기념물군", "english_name": "Qutb Minar and its Monuments, Delhi", "image_url": "https://akm-img-a-in.tosshub.com/sites/media2/indiatoday/images/stories/2017April/qutub1_042717100950.jpg" }
         ]
     },
@@ -378,7 +378,7 @@ const countries = [
             { "name": "아테네 아크로폴리스", "english_name": "Acropolis of Athens", "image_url": "https://archaeologymag.com/wp-content/uploads/Caryatids-457.jpg" },
             { "name": "델피 고고 유적", "english_name": "Archaeological Site of Delphi", "image_url": "https://cdn-imgix.headout.com/media/images/87d7aa6adbd858996367bba7766c35bb-Athens-0004-AdobeStock-236666136.jpg?auto=format&w=1222.3999999999999&h=687.6&q=90&ar=16%3A9&crop=faces&fit=crop" },
             { "name": "메테오라", "english_name": "Meteora", "image_url": "https://idsb.tmgrup.com.tr/ly/uploads/images/2024/01/16/thumbs/800x531/310379.jpg?v=1705412200" },
-            { "name": "로도스 중세 도시", "english_name": "Medieval City of Rhodes", "image_url": "https://explore-rhodes.com/wp-content/uploads/2021/04/grand-master-palace.jpg" }
+            { "name": "로도스 중세 도시", "english_name": "Medieval City of Rhodes", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Fort_Saint_Nicolas_Rhodes.jpg/2560px-Fort_Saint_Nicolas_Rhodes.jpg" }
         ]
     },
     {
