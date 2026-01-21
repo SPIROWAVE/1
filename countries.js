@@ -324,7 +324,7 @@ const countries = [
         "english_major_cities": ["Riyadh", "Jeddah", "Mecca", "Medina", "Dammam"],
         "unesco_sites": [
             { "name": "알-히즈르 고고 유적 (마다인 살레)", "english_name": "Hegra Archaeological Site (Al-Hijr)", "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Hegra%2C_Al-Ula%2C_Saudi_Arabia.png" },
-            { "name": "앗-투라이프 지구 (디리야)", "english_name": "At-Turaif District in ad-Dir'iyah", "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-6/513706179_10163847715497125_673806558762276192_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_3-yt1vZ30oQ7kNvwETzR4U&_nc_oc=AdnmSs9NWao6jDq0F59G23nV6d-GNVOF89sfJFGYgFoTq3apQ9RyknOb5xCN47tw3sw&_nc_zt=23&_nc_ht=scontent-ssn1-1.xx&_nc_gid=c-gYcn-i9RkFGEMyT98O3w&oh=00_AfrpkrZ5PBQomA06CyNlMkygDixh0oH5-1sAwz1r8TIn6w&oe=6976E2B6" }
+            { "name": "앗-투라이프 지구 (디리야)", "english_name": "At-Turaif District in ad-Dir'iyah", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/At-Turaif_District_of_Diriyah%2C_Saudi_Arabia.jpg/2560px-At-Turaif_District_of_Diriyah%2C_Saudi_Arabia.jpg" }
         ]
     },
     {
