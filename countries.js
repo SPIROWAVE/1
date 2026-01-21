@@ -389,7 +389,7 @@ const countries = [
         "unesco_sites": [
             { "name": "브뤼겐", "english_name": "Bryggen", "image_url": "https://www.historyhit.com/app/uploads/bis-images/5164424/shutterstock_330395624-1-1576x1074.jpg" },
             { "name": "우르네스 목조 교회", "english_name": "Urnes Stave Church", "image_url": "https://www.visitnordic.com/cache/medium-Heddal_Stavechurch_-Vidar_Molkken__Visit_Norway-512x512.jpg" },
-            { "name": "베가 제도", "english_name": "Vegaøyan – The Vega Archipelago", "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/5b/c5/30/bli- kjent-med-verdensarven.jpg?w=600&h=-1&s=1" }
+            { "name": "베가 제도", "english_name": "Vegaøyan – The Vega Archipelago", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Vega-Eidem-Beach-Norway.jpg/2560px-Vega-Eidem-Beach-Norway.jpg" }
         ]
     },
     {
