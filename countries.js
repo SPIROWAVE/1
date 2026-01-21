@@ -7,7 +7,7 @@ const countries = [
         "major_cities": ["서울", "부산", "인천", "대구", "대전", "광주", "울산", "수원"],
         "english_major_cities": ["Seoul", "Busan", "Incheon", "Daegu", "Daejeon", "Gwangju", "Ulsan", "Suwon"],
         "unesco_sites": [
-            { "name": "석굴암과 불국사", "english_name": "Seokguram Grotto and Bulguksa Temple", "image_url": "" },
+            { "name": "석굴암과 불국사", "english_name": "Seokguram Grotto and Bulguksa Temple", "image_url": "https://i.namu.wiki/i/SM2Wse6Bq6SuWMcvEYMxZVpPHkuuL5rizXMrS4-jbDcjuZIQqKFt4IrrLNgu4g7GC27xXAkTYPsfTylDH3uIdff2fmtIwvKBpzyz65jABcoeb5dLtCr4o42SBfmmjNDqOQEeEW1xbdJz82FSFWgOaQ.webp" },
             { "name": "해인사 장경판전", "english_name": "Haeinsa Temple Janggyeong Panjeon, the Depositories for the Tripitaka Koreana Woodblocks", "image_url": "" },
             { "name": "종묘", "english_name": "Jongmyo Shrine", "image_url": "" },
             { "name": "창덕궁", "english_name": "Changdeokgung Palace Complex", "image_url": "" },
