@@ -57,19 +57,10 @@ function pickCountry() {
     if (selectedCountry.unesco_sites && selectedCountry.unesco_sites.length > 0) {
         selectedCountry.unesco_sites.forEach((site, index) => {
             const imageUrl = site.image_url ? site.image_url : `https://picsum.photos/seed/${index}/400/300`;
-            imagesHtml += `<div class="unesco-image-item">`;
-            if (site.wikipedia_url) {
-                imagesHtml += `<a href="${site.wikipedia_url}" target="_blank">`;
-            }
-            imagesHtml += `<img src="${imageUrl}" alt="${site.name}">`;
-            if (site.wikipedia_url) {
-                imagesHtml += `</a>`;
-            }
-            imagesHtml += `<p>${site.name} <span class="english-name">(${site.english_name})</span></p>`;
-            if (site.google_maps_url) {
-                imagesHtml += `<a href="${site.google_maps_url}" target="_blank" class="map-link">📍 지도 보기<br><span class="english-name">(View Map)</span></a>`;
-            }
-            imagesHtml += `</div>`;
+            imagesHtml += `<div class="unesco-image-item">
+                                <img src="${imageUrl}" alt="${site.name}">
+                                <p>${site.name} <span class="english-name">(${site.english_name})</span></p>
+                           </div>`;
         });
     }
     imagesContainer.innerHTML = imagesHtml;
