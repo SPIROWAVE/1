@@ -30,21 +30,6 @@ const countries = [
         ]
     },
     {
-        "name": "중국",
-        "english_name": "China",
-        "capital": "베이징",
-        "english_capital": "Beijing",
-        "major_cities": ["베이징", "상하이", "충칭", "톈진", "광저우", "선전"],
-        "english_major_cities": ["Beijing", "Shanghai", "Chongqing", "Tianjin", "Guangzhou", "Shenzhen"],
-        "unesco_sites": [
-            { "name": "만리장성", "english_name": "Great Wall", "image_url": "https://i.namu.wiki/i/AjJRkTF6X8gy7rMfpsX2SA0az6fuRo0-MSXfnbBgwUemwT9GrVCKI7I2kz-nE3ryeML85j9rcri09RsKNLqcPo4NGw0Axv40nXNBA24BD31aNI7CYHzHsqEnwMP4A9FBFNV48omzPHFLLASP8eJ7kw.webp" },
-            { "name": "명청 시대의 황궁 (자금성)", "english_name": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang", "image_url": "https://i.namu.wiki/i/vk9GduGypge1XyyYVEP53g0-UbuO7KSwnlpJ_wV6P9hcnyfOD0qDiZpkL8DDvi2osufTlF_neRTuqcoN3zVHJgZ0ORb1GMTFB6p5Im7EGergf1d3Qjy7k1Ca7gWbxkRX2cGyp7ozg3hqg3CSLsmHzA.webp" },
-            { "name": "진시황릉과 병마용", "english_name": "Mausoleum of the First Qin Emperor", "image_url": "https://news.kbs.co.kr/data/news/2019/09/15/4282939_EP3.jpg" },
-            { "name": "모가오 석굴", "english_name": "Mogao Grottoes", "image_url": "https://wimg.munhwa.com/news/cms/2026/01/15/news-p.v1.20260115.3caba467275c4169921f5799dc61eedd_P1.png" },
-            { "name": "황산", "english_name": "Mount Huangshan", "image_url": "https://img9.yna.co.kr/photo/yna/YH/2010/03/30/PYH2010033005030001300_P4.jpg" }
-        ]
-    },
-    {
         "name": "미국",
         "english_name": "United States",
         "capital": "워싱턴 D.C.",
@@ -404,7 +389,7 @@ const countries = [
         "unesco_sites": [
             { "name": "브뤼겐", "english_name": "Bryggen", "image_url": "https://www.historyhit.com/app/uploads/bis-images/5164424/shutterstock_330395624-1-1576x1074.jpg" },
             { "name": "우르네스 목조 교회", "english_name": "Urnes Stave Church", "image_url": "https://www.visitnordic.com/cache/medium-Heddal_Stavechurch_-Vidar_Molkken__Visit_Norway-512x512.jpg" },
-            { "name": "베가 제도", "english_name": "Vegaøyan – The Vega Archipelago", "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/5b/c5/30/bli-kjent-med-verdensarven.jpg?w=600&h=-1&s=1" }
+            { "name": "베가 제도", "english_name": "Vegaøyan – The Vega Archipelago", "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/5b/c5/30/bli- kjent-med-verdensarven.jpg?w=600&h=-1&s=1" }
         ]
     },
     {
