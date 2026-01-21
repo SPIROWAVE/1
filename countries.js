@@ -428,7 +428,7 @@ const countries = [
         "major_cities": ["바르샤바", "크라쿠프", "우치", "브로츠와프", "포즈난"],
         "english_major_cities": ["Warsaw", "Kraków", "Łódź", "Wrocław", "Poznań"],
         "unesco_sites": [
-            { "name": "크라쿠프 역사 지구", "english_name": "Historic Centre of Kraków", "image_url": "https://sumfinity.com/wp-content/uploads/2014/02/Mary-Basilica-Krakow.jpg" },
+            { "name": "크라쿠프 역사 지구", "english_name": "Historic Centre of Kraków", "image_url": "https://cdn-hldnf.nitrocdn.com/jablpxuJqZYXSLjpCBeVHPBXzclbrexW/assets/images/source/rev-80a90e1/sumfinity.com/wp-content/uploads/2014/02/Mary-Basilica-Krakow.jpg" },
             { "name": "비엘리치카와 보이니치 소금 광산", "english_name": "Wieliczka and Bochnia Royal Salt Mines", "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/%CE%91%CE%BB%CE%B1%CF%84%CF%89%CF%81%CF%85%CF%87%CE%B5%CE%AF%CE%B1_%CE%92%CE%B9%CE%B5%CE%BB%CE%AF%CF%84%CF%83%CE%BA%CE%B1_5021.jpg" },
             { "name": "아우슈비츠 비르케나우 독일 나치 강제 수용소", "english_name": "Auschwitz Birkenau German Nazi Concentration and Extermination Camp (1940-1945)", "image_url": "https://api.multimedia.europarl.europa.eu/documents/20125/7244339/1642760976430_20220118_AUSCHWITZ_128_MOBILE.jpg" }
         ]
