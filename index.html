@@ -2,54 +2,15 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>랜덤 국가 추첨기</title>
+    <link rel="stylesheet" href="style.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9347981929405831"
      crossorigin="anonymous"></script>
     <meta name="google-adsense-platform-account" content="pub-9347981929405831">
     <meta name="google-adsense-platform-domain-verification" content="f08c47fec0942fa0">
     <meta name="google-adsense-account" content="ca-pub-9347981929405831">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            text-align: center;
-            padding-top: 50px;
-        }
-        button {
-            font-size: 18px;
-            padding: 12px 25px;
-            cursor: pointer;
-            margin: 5px;
-        }
-        #result {
-            margin-top: 20px;
-            font-size: 28px;
-            font-weight: bold;
-            color: #333;
-        }
-        #capital, #major-cities {
-            margin-top: 10px;
-            font-size: 22px;
-            color: #555;
-        }
-        #unesco-sites {
-            margin-top: 20px;
-            font-size: 18px;
-            color: #777;
-        }
-        #unesco-sites ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        #unesco-sites li {
-            margin-bottom: 5px;
-        }
-        .english-name {
-            font-size: 0.7em; /* Adjust as needed */
-            color: #888; /* Slightly lighter color for English names */
-            font-weight: normal;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -60,61 +21,10 @@
     <div id="capital"></div>
     <div id="major-cities"></div>
     <div id="unesco-sites"></div>
+    <div id="unesco-images-container"></div>
 
     <script src="countries.js"></script>
-    <script>
-        let pickedCountries = [];
-
-        function resetCountries() {
-            pickedCountries = [];
-        }
-
-        function pickCountry() {
-            if (pickedCountries.length === countries.length) {
-                resetCountries();
-            }
-
-            let availableCountries = countries.filter(country => !pickedCountries.includes(country.name));
-            if (availableCountries.length === 0) {
-                // This should ideally not happen if resetCountries is called correctly, but as a safeguard.
-                resetCountries();
-                availableCountries = countries;
-            }
-
-            const randomIndex = Math.floor(Math.random() * availableCountries.length);
-            const selectedCountry = availableCountries[randomIndex];
-            pickedCountries.push(selectedCountry.name);
-
-            document.getElementById("result").innerHTML = `${selectedCountry.name} <span class="english-name">(${selectedCountry.english_name})</span>`;
-            document.getElementById("capital").innerHTML = `수도: ${selectedCountry.capital} <span class="english-name">(${selectedCountry.english_capital})</span>`;
-            
-            // Display major cities
-            let majorCitiesHtml = "주요 도시: ";
-            let englishMajorCitiesHtml = "N/A";
-            if (selectedCountry.major_cities && selectedCountry.major_cities.length > 0) {
-                majorCitiesHtml += selectedCountry.major_cities.join(", ");
-                if (selectedCountry.english_major_cities && selectedCountry.english_major_cities.length > 0) {
-                    englishMajorCitiesHtml = selectedCountry.english_major_cities.join(", ");
-                }
-            } else {
-                majorCitiesHtml += "없음";
-            }
-            document.getElementById("major-cities").innerHTML = `${majorCitiesHtml} <span class="english-name">(${englishMajorCitiesHtml})</span>`;
-
-            // Display UNESCO sites
-            let unescoSitesHtml = "<h3>유네스코 세계유산<br><span class=\"english-name\">UNESCO World Heritage Sites</span></h3>";
-            if (selectedCountry.unesco_sites && selectedCountry.unesco_sites.length > 0) {
-                unescoSitesHtml += "<ul>";
-                selectedCountry.unesco_sites.forEach((site, index) => {
-                    unescoSitesHtml += `<li>${site} <span class="english-name">(${selectedCountry.english_unesco_sites[index]})</span></li>`;
-                });
-                unescoSitesHtml += "</ul>";
-            } else {
-                unescoSitesHtml += "<p>정보 없음</p>";
-            }
-            document.getElementById("unesco-sites").innerHTML = unescoSitesHtml;
-        }
-    </script>
+    <script src="main.js"></script>
 
 </body>
 </html>
