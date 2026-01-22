@@ -582,4 +582,54 @@ const countries = [
             { "name": "아그텔레크 카르스트 동굴과 슬로바키아 카르스트", "english_name": "Caves of Aggtelek Karst and Slovak Karst", "image_url": "https://national-parks.org/wp-content/uploads/2025/10/Aggtelek-National-Park.jpg" }
         ]
     }
+    ,
+    {
+        "name": "칠레",
+        "english_name": "Chile",
+        "capital": "산티아고",
+        "english_capital": "Santiago",
+        "major_cities": ["산티아고", "푸엔테알토", "안토파가스타", "비냐델마르", "발파라이소"],
+        "english_major_cities": ["Santiago", "Puente Alto", "Antofagasta", "Viña del Mar", "Valparaíso"],
+        "unesco_sites": [
+            { "name": "이키케의 산타 라우라와 우멜베르스톤 초석 공장", "english_name": "Humberstone and Santa Laura Saltpeter Works", "image_url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0a/f5/ec/0c.jpg" },
+            { "name": "라파누이 국립공원", "english_name": "Rapa Nui National Park", "image_url": "https://www.worldtribune.org/wp-content/uploads/sites/2/2023/03/Easter_island_GettyImages-534539131.jpg" }
+        ]
+    },
+    {
+        "name": "페루",
+        "english_name": "Peru",
+        "capital": "리마",
+        "english_capital": "Lima",
+        "major_cities": ["리마", "아레키파", "트루히요", "치클라요", "피우라"],
+        "english_major_cities": ["Lima", "Arequipa", "Trujillo", "Chiclayo", "Piura"],
+        "unesco_sites": [
+            { "name": "쿠스코 시", "english_name": "City of Cuzco", "image_url": "https://www.worldtribune.org/wp-content/uploads/sites/2/2023/05/Cuzco_Peru_GettyImages-1164791506.jpg" },
+            { "name": "마추픽추 역사 보호 지구", "english_name": "Historic Sanctuary of Machu Picchu", "image_url": "https://www.peru.travel/Contenido/Noticia/Imagen/en/2052/1.0/Principal/circuits_mapi_Desktop.jpg" },
+            { "name": "리마 역사 지구", "english_name": "Historic Centre of Lima", "image_url": "https://wmf.imgix.net/images/f9_PER_Lima_Hist_JPEG_Hero_PER_Lima_Hist.jpg?auto=format,compress&fit=max&w=4040" }
+        ]
+    },
+    {
+        "name": "콜롬비아",
+        "english_name": "Colombia",
+        "capital": "보고타",
+        "english_capital": "Bogotá",
+        "major_cities": ["보고타", "메데인", "칼리", "바랑키야", "카르타헤나"],
+        "english_major_cities": ["Bogotá", "Medellín", "Cali", "Barranquilla", "Cartagena"],
+        "unesco_sites": [
+            { "name": "카르타헤나 항구, 요새, 기념물", "english_name": "Port, Fortresses and Group of Monuments, Cartagena", "image_url": "https://media.istockphoto.com/id/2163251250/photo/photograph-archive-of-cartagena-colombia.jpg?s=612x612&w=0&k=20&c=8aJEeNRfyqyAKkXtnfhkMNr_opIYOqwlXrrfwxoaviw=" },
+            { "name": "산타 크루즈 데 몸폭의 역사 지구", "english_name": "Historic Centre of Santa Cruz de Mompox", "image_url": "https://i.natgeofe.com/n/211cd9f7-5517-4c9a-8f88-fb5b1102d8df/28013.jpg" }
+        ]
+    },
+    {
+        "name": "말레이시아",
+        "english_name": "Malaysia",
+        "capital": "쿠알라룸푸르",
+        "english_capital": "Kuala Lumpur",
+        "major_cities": ["쿠알라룸푸르", "조호르바루", "페낭", "이포", "말라카"],
+        "english_major_cities": ["Kuala Lumpur", "Johor Bahru", "Penang", "Ipoh", "Malacca City"],
+        "unesco_sites": [
+            { "name": "말로니안 문화 경관", "english_name": "Archaeological Heritage of the Lenggong Valley", "image_url": "https://mediaim.expedia.com/localexpert/2516072/13fa7201-d826-494d-9254-75a57bb706e3.jpg?impolicy=resizecrop&rw=1005&rh=565" },
+            { "name": "말라카와 페낭의 역사 도시", "english_name": "Melaka and George Town, Historic Cities of the Straits of Malacca", "image_url": "https://media.assettype.com/outlooktraveller%2F2025-04-04%2Fi11147ma%2Friver-3748199.jpg?w=1200&auto=format%2Ccompress&fit=max" }
+        ]
+    }
 ]
