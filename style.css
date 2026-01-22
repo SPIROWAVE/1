@@ -29,6 +29,12 @@ button {
     word-break: keep-all;
 }
 
+#result small {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #888;
+}
+
 #capital, #major-cities {
     margin-top: 0.625rem;
     font-size: 1.375rem;
@@ -122,4 +128,24 @@ button {
     #capital, #major-cities {
         font-size: 1.2rem;
     }
+}
+
+.draw-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.4s;
+}
+
+.draw-button:hover {
+    background-color: #45a049;
 }
