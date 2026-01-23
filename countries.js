@@ -437,7 +437,7 @@ const countries = [
         "english_major_cities": ["Lima", "Arequipa", "Trujillo", "Chiclayo", "Piura"],
         "unesco_sites": [
             { "name": "쿠스코 시", "english_name": "City of Cuzco", "image_url": "https://www.worldtribune.org/wp-content/uploads/sites/2/2023/05/Cuzco_Peru_GettyImages-1164791506.jpg" },
-            { "name": "마추픽추 역사 보호 지구", "english_name": "Historic Sanctuary of Machu Picchu", "image_url": "https://www.peru.travel/Contenido/Noticia/Imagen/en/2052/1.0/Principal/circuits_mapi_Desktop.jpg" },
+            { "name": "마추픽추 역사 보호 지구", "english_name": "Historic Sanctuary of Machu Picchu", "image_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/b2/e5/f3.jpg" },
             { "name": "리마 역사 지구", "english_name": "Historic Centre of Lima", "image_url": "https://wmf.imgix.net/images/f9_PER_Lima_Hist_JPEG_Hero_PER_Lima_Hist.jpg?auto=format,compress&fit=max&w=4040" }
         ]
     },
