@@ -30,21 +30,6 @@ const countries = [
         ]
     },
     {
-        "name": "미국",
-        "english_name": "United States",
-        "capital": "워싱턴 D.C.",
-        "english_capital": "Washington D.C.",
-        "major_cities": ["워싱턴 D.C.", "뉴욕", "로스앤젤레스", "시카고", "휴스턴", "피닉스"],
-        "english_major_cities": ["Washington D.C.", "New York City", "Los Angeles", "Chicago", "Houston", "Phoenix"],
-        "unesco_sites": [
-            { "name": "그랜드 캐니언 국립공원", "english_name": "Grand Canyon National Park", "image_url": "https://i.namu.wiki/i/9Lm9qVwvriAf8g2udDqIpUgFeYcgyHqMLcAVq63crPd2wyj1M0oiFt8AOnnGIQJ3W8Mk51GC9CrcOl7iiu8xnt8E3hXfQ46WAno1yMDXbrR1pzhRq1jpfV1X5kiuwr0Lzwaht4suiagj8VCk6WWXYg.webp" },
-            { "name": "요세미티 국립공원", "english_name": "Yosemite National Park", "image_url": "https://i.namu.wiki/i/0gw4ObsXgIbrybDGusVol0qwqfWrSc7uOAHIx881X0u2zIeNTREo7NgRDROnpYAjEuv31R9cMD9iF38R9GLMKvnzJjhKkitWlfIp3zXpiKQ8k8T0of4s41wB-ad4vxXA3EhgPLJ1Ye6JzXf-2L0u5w.webp" },
-            { "name": "옐로스톤 국립공원", "english_name": "Yellowstone National Park", "image_url": "https://i.namu.wiki/i/07u-N4Im_YbnsB8ZUemxZXosNEiiZdXRmkRarJSd0wTdOyUvMz6W80ZgUMXY5j87bKUaGPsYVLhIkrCHecBUeq3F1MkM2Fjm0mA4ew2hSxrUSHbZVFX_wXAohapVSJlt7OFJjv8AmCezO3ntiuIrZg.webp" },
-            { "name": "자유의 여신상", "english_name": "Statue of Liberty", "image_url": "https://image.kkday.com/v2/image/get/c_fill%2Ch_800%2Cq_55%2Ct_jpg%2Cw_1240/s1.kkday.com/product_176978/20240520033005_nfP4N/jpg" },
-            { "name": "독립기념관", "english_name": "Independence Hall", "image_url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/543000/543320-center-city-philly.jpg" }
-        ]
-    },
-    {
         "name": "캐나다",
         "english_name": "Canada",
         "capital": "오타와",
@@ -570,66 +555,29 @@ const countries = [
         ]
     },
     {
-        "name": "헝가리",
-        "english_name": "Hungary",
-        "capital": "부다페스트",
-        "english_capital": "Budapest",
-        "major_cities": ["부다페스트", "데브레첸", "세게드", "미슈콜츠", "페치"],
-        "english_major_cities": ["Budapest", "Debrecen", "Szeged", "Miskolc", "Pécs"],
+        "name": "포르투갈",
+        "english_name": "Portugal",
+        "capital": "리스본",
+        "english_capital": "Lisbon",
+        "major_cities": ["리스본", "포르투", "빌라노바데가이아", "아마도라", "브라가"],
+        "english_major_cities": ["Lisbon", "Porto", "Vila Nova de Gaia", "Amadora", "Braga"],
         "unesco_sites": [
-            { "name": "부다페스트: 도나우 강변, 부다 성 지구, 안드라시 거리", "english_name": "Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue", "image_url": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/9bbf4e8cc6fd216941b4edcfe1be3ced9a273defb361eb30a13e53f9acf40c34.jpg" },
-            { "name": "홀로쾨 옛 마을과 환경", "english_name": "Old Village of Hollókő and its Surroundings", "image_url": "https://d20jhx4r9t6zw8.cloudfront.net/2254282_large_dd8166c7.jpg" },
-            { "name": "아그텔레크 카르스트 동굴과 슬로바키아 카르스트", "english_name": "Caves of Aggtelek Karst and Slovak Karst", "image_url": "https://national-parks.org/wp-content/uploads/2025/10/Aggtelek-National-Park.jpg" }
-        ]
-    }
-    ,
-    {
-        "name": "칠레",
-        "english_name": "Chile",
-        "capital": "산티아고",
-        "english_capital": "Santiago",
-        "major_cities": ["산티아고", "푸엔테알토", "안토파가스타", "비냐델마르", "발파라이소"],
-        "english_major_cities": ["Santiago", "Puente Alto", "Antofagasta", "Viña del Mar", "Valparaíso"],
-        "unesco_sites": [
-            { "name": "이키케의 산타 라우라와 우멜베르스톤 초석 공장", "english_name": "Humberstone and Santa Laura Saltpeter Works", "image_url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0a/f5/ec/0c.jpg" },
-            { "name": "라파누이 국립공원", "english_name": "Rapa Nui National Park", "image_url": "https://www.worldtribune.org/wp-content/uploads/sites/2/2023/03/Easter_island_GettyImages-534539131.jpg" }
+            { "name": "벨렝탑", "english_name": "Tower of Belém in Lisbon", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Torre_de_Bel%C3%A9m_-_Lisbon_%282516949999%29.jpg/1200px-Torre_de_Bel%C3%A9m_-_Lisbon_%282516949999%29.jpg" },
+            { "name": "제로니무스 수도원", "english_name": "Monastery of the Hieronymites", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Portugal-1_022_-_Mosteiro_dos_Jer%C3%B3nimos.jpg/1200px-Portugal-1_022_-_Mosteiro_dos_Jer%C3%B3nimos.jpg" },
+            { "name": "신트라 문화 경관", "english_name": "Cultural Landscape of Sintra", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Parque_e_Pal%C3%A1cio_Nacional_da_Pena_2019-08-11_08.jpg/1200px-Parque_e_Pal%C3%A1cio_Nacional_da_Pena_2019-08-11_08.jpg" }
         ]
     },
     {
-        "name": "페루",
-        "english_name": "Peru",
-        "capital": "리마",
-        "english_capital": "Lima",
-        "major_cities": ["리마", "아레키파", "트루히요", "치클라요", "피우라"],
-        "english_major_cities": ["Lima", "Arequipa", "Trujillo", "Chiclayo", "Piura"],
+        "name": "모로코",
+        "english_name": "Morocco",
+        "capital": "라바트",
+        "english_capital": "Rabat",
+        "major_cities": ["카사블랑카", "라바트", "페스", "마라케시", "탕헤르"],
+        "english_major_cities": ["Casablanca", "Rabat", "Fes", "Marrakesh", "Tangier"],
         "unesco_sites": [
-            { "name": "쿠스코 시", "english_name": "City of Cuzco", "image_url": "https://www.worldtribune.org/wp-content/uploads/sites/2/2023/05/Cuzco_Peru_GettyImages-1164791506.jpg" },
-            { "name": "마추픽추 역사 보호 지구", "english_name": "Historic Sanctuary of Machu Picchu", "image_url": "https://www.peru.travel/Contenido/Noticia/Imagen/en/2052/1.0/Principal/circuits_mapi_Desktop.jpg" },
-            { "name": "리마 역사 지구", "english_name": "Historic Centre of Lima", "image_url": "https://wmf.imgix.net/images/f9_PER_Lima_Hist_JPEG_Hero_PER_Lima_Hist.jpg?auto=format,compress&fit=max&w=4040" }
-        ]
-    },
-    {
-        "name": "콜롬비아",
-        "english_name": "Colombia",
-        "capital": "보고타",
-        "english_capital": "Bogotá",
-        "major_cities": ["보고타", "메데인", "칼리", "바랑키야", "카르타헤나"],
-        "english_major_cities": ["Bogotá", "Medellín", "Cali", "Barranquilla", "Cartagena"],
-        "unesco_sites": [
-            { "name": "카르타헤나 항구, 요새, 기념물", "english_name": "Port, Fortresses and Group of Monuments, Cartagena", "image_url": "https://media.istockphoto.com/id/2163251250/photo/photograph-archive-of-cartagena-colombia.jpg?s=612x612&w=0&k=20&c=8aJEeNRfyqyAKkXtnfhkMNr_opIYOqwlXrrfwxoaviw=" },
-            { "name": "산타 크루즈 데 몸폭의 역사 지구", "english_name": "Historic Centre of Santa Cruz de Mompox", "image_url": "https://i.natgeofe.com/n/211cd9f7-5517-4c9a-8f88-fb5b1102d8df/28013.jpg" }
-        ]
-    },
-    {
-        "name": "말레이시아",
-        "english_name": "Malaysia",
-        "capital": "쿠알라룸푸르",
-        "english_capital": "Kuala Lumpur",
-        "major_cities": ["쿠알라룸푸르", "조호르바루", "페낭", "이포", "말라카"],
-        "english_major_cities": ["Kuala Lumpur", "Johor Bahru", "Penang", "Ipoh", "Malacca City"],
-        "unesco_sites": [
-            { "name": "말로니안 문화 경관", "english_name": "Archaeological Heritage of the Lenggong Valley", "image_url": "https://mediaim.expedia.com/localexpert/2516072/13fa7201-d826-494d-9254-75a57bb706e3.jpg?impolicy=resizecrop&rw=1005&rh=565" },
-            { "name": "말라카와 페낭의 역사 도시", "english_name": "Melaka and George Town, Historic Cities of the Straits of Malacca", "image_url": "https://media.assettype.com/outlooktraveller%2F2025-04-04%2Fi11147ma%2Friver-3748199.jpg?w=1200&auto=format%2Ccompress&fit=max" }
+            { "name": "페스의 메디나", "english_name": "Medina of Fez", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/View_of_Fes_el_Bali_%28December_2019%29.jpg/1200px-View_of_Fes_el_Bali_%28December_2019%29.jpg" },
+            { "name": "마라케시의 메디나", "english_name": "Medina of Marrakesh", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Jemaa_el-Fna_in_Marrakesh_at_sunset.jpg/1200px-Jemaa_el-Fna_in_Marrakesh_at_sunset.jpg" },
+            { "name": "아이트-벤-하두의 크사르", "english_name": "Ksar of Ait-Ben-Haddou", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ait_Ben_Haddou_entrance.jpg/1200px-Ait_Ben_Haddou_entrance.jpg" }
         ]
     }
 ]
