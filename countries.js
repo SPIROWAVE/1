@@ -449,7 +449,7 @@ const countries = [
         "major_cities": ["보고타", "메데인", "칼리", "바랑키야", "카르타헤나"],
         "english_major_cities": ["Bogotá", "Medellín", "Cali", "Barranquilla", "Cartagena"],
         "unesco_sites": [
-            { "name": "카르타헤나 항구, 요새, 기념물", "english_name": "Port, Fortresses and Group of Monuments, Cartagena", "image_url": "https://media.istockphoto.com/id/2163251250/photo/photograph-archive-of-cartagena-colombia.jpg?s=612x612&w=0&k=20&c=8aJEeNRfyqtAKkXtnfhkMNr_opIYOqwlXrrfwxoaviw=" },
+            { "name": "카르타헤나 항구, 요새, 기념물", "english_name": "Port, Fortresses and Group of Monuments, Cartagena", "image_url": "https://www.topworldimages.com/photos/El_castillo_de_San_Felipe_de_Barajas_desde_el_mar.jpeg" },
             { "name": "산타 크루즈 데 몸폭의 역사 지구", "english_name": "Historic Centre of Santa Cruz de Mompox", "image_url": "https://i.natgeofe.com/n/211cd9f7-5517-4c9a-8f88-fb5b1102d8df/28013.jpg" }
         ]
     },
