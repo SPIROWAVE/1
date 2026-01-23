@@ -562,9 +562,9 @@ const countries = [
         "major_cities": ["리스본", "포르투", "빌라노바데가이아", "아마도라", "브라가"],
         "english_major_cities": ["Lisbon", "Porto", "Vila Nova de Gaia", "Amadora", "Braga"],
         "unesco_sites": [
-            { "name": "벨렝탑", "english_name": "Tower of Belém in Lisbon", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Torre_de_Bel%C3%A9m_-_Lisbon_%282516949999%29.jpg/1200px-Torre_de_Bel%C3%A9m_-_Lisbon_%282516949999%29.jpg" },
-            { "name": "제로니무스 수도원", "english_name": "Monastery of the Hieronymites", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Portugal-1_022_-_Mosteiro_dos_Jer%C3%B3nimos.jpg/1200px-Portugal-1_022_-_Mosteiro_dos_Jer%C3%B3nimos.jpg" },
-            { "name": "신트라 문화 경관", "english_name": "Cultural Landscape of Sintra", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Parque_e_Pal%C3%A1cio_Nacional_da_Pena_2019-08-11_08.jpg/1200px-Parque_e_Pal%C3%A1cio_Nacional_da_Pena_2019-08-11_08.jpg" }
+            { "name": "벨렝탑", "english_name": "Tower of Belém in Lisbon", "image_url": "https://www.civitatis.com/f/portugal/lisboa/guia/torre-belem-m.jpg" },
+            { "name": "제로니무스 수도원", "english_name": "Monastery of the Hieronymites", "image_url": "https://cdn-imgix.headout.com/media/images/276f82bbf47f2b3d2910bda0b8dc58b2-JeronimosMonasteryceiling.jpg" },
+            { "name": "신트라 문화 경관", "english_name": "Cultural Landscape of Sintra", "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqlyfb63-6PYn_vfjrcbReWafA2lQOUWIJEUqgXmfFS5djmFLRfHfIqPaaKbdD8rCZfk2vU8ybSM06iYINEFy4gK3KnH0uhV_CrWrxvCUx8DKeFdiZkJT41HTxz_wR417muAgg_pJQGxM/w1200-h630-p-k-no-nu/Portugal+-+Cultural+Landscape+of+Sintra.jpg" }
         ]
     },
     {
@@ -575,9 +575,9 @@ const countries = [
         "major_cities": ["카사블랑카", "라바트", "페스", "마라케시", "탕헤르"],
         "english_major_cities": ["Casablanca", "Rabat", "Fes", "Marrakesh", "Tangier"],
         "unesco_sites": [
-            { "name": "페스의 메디나", "english_name": "Medina of Fez", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/View_of_Fes_el_Bali_%28December_2019%29.jpg/1200px-View_of_Fes_el_Bali_%28December_2019%29.jpg" },
-            { "name": "마라케시의 메디나", "english_name": "Medina of Marrakesh", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Jemaa_el-Fna_in_Marrakesh_at_sunset.jpg/1200px-Jemaa_el-Fna_in_Marrakesh_at_sunset.jpg" },
-            { "name": "아이트-벤-하두의 크사르", "english_name": "Ksar of Ait-Ben-Haddou", "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ait_Ben_Haddou_entrance.jpg/1200px-Ait_Ben_Haddou_entrance.jpg" }
+            { "name": "페스의 메디나", "english_name": "Medina of Fez", "image_url": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2023/09/medina-de-fez.jpg" },
+            { "name": "마라케시의 메디나", "english_name": "Medina of Marrakesh", "image_url": "https://www.aworldtotravel.com/wp-content/uploads/2017/11/djemaa-el-fna-fun-things-to-do-in-the-medina-of-marrakech-morocco-a-world-to-travel.jpg" },
+            { "name": "아이트-벤-하두의 크사르", "english_name": "Ksar of Ait-Ben-Haddou", "image_url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/d7/b8/30.jpg" }
         ]
     }
 ]
