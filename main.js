@@ -45,7 +45,6 @@ function pickCountry() {
             unescoSitesHtml += `<li>${site.name} <span class="english-name">(${site.english_name})</span></li>`;
         });
         unescoSitesHtml += "</ul>";
-        unescoSitesHtml += `<button onclick="toggleUnescoImages()">사진[photo]</button>`;
     } else {
         unescoSitesHtml += "<p>정보 없음</p>";
     }
@@ -62,15 +61,9 @@ function pickCountry() {
                                 <p>${site.name} <span class="english-name">(${site.english_name})</span></p>
                            </div>`;
         });
+        imagesContainer.style.display = "flex"; // Make images visible automatically
+    } else {
+        imagesContainer.style.display = "none"; // Hide if no images
     }
     imagesContainer.innerHTML = imagesHtml;
-}
-
-function toggleUnescoImages() {
-    const imagesContainer = document.getElementById("unesco-images-container");
-    if (imagesContainer.style.display === "none" || imagesContainer.style.display === "") {
-        imagesContainer.style.display = "flex";
-    } else {
-        imagesContainer.style.display = "none";
-    }
 }
